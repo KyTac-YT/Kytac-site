@@ -29,6 +29,45 @@ section {
 iframe {
     max-width: 100%;
 }
+.shorts-grid {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.shorts-grid img {
+    width: 180px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+.shorts-grid img:hover {
+    transform: scale(1.05);
+}
+.signup form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.signup input[type="email"] {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.signup button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup button:hover {
+    background-color: #45a049;
+}
 footer {
     text-align: center;
     background-color: #1c1c1c;
